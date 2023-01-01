@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
  
 app.get('/teapot', (req, res) => {
-  res.set("X-tea", true).status(418).send('im a little teapot')
+  res.set("X-tea", true).status(418).send('im a little teapot short and stout')
 });
  
 
